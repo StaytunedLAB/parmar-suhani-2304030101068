@@ -21,7 +21,7 @@ Start with our **[Documentation Index](./docs/index.md)** for comprehensive guid
 
 ## 📂 Key Files & Structure
 
-| Directory/File    | Purpose                                   | Action                                  |
+| Directory/File    | Purpose                                   | reaction                                |
 | :---------------- | :---------------------------------------- | :-------------------------------------- |
 | `/src`            | All primary source code.                  | This is where you write your code.      |
 | `/docs`           | Project requirements and architecture.    | Start with [index.md](./docs/index.md) for overview. |
