@@ -1,5 +1,3 @@
-// employee attendance system
-
 function parseTime(timeString) {
     if (!timeString) return null;
 
@@ -121,3 +119,4 @@ const summary = processAttendance(attendanceInput);
 
 console.log("=== Attendance Summary ===");
 console.table([summary]);
+
