@@ -1,4 +1,3 @@
-// GitHub Issue Creator - uses the repository from your context
 const OWNER = process.env.GH_OWNER || "StaytunedLAB";
 const REPO = process.env.GH_REPO || "parmar-suhani-2304030101068";
 const TOKEN = process.env.GITHUB_TOKEN;
@@ -37,5 +36,6 @@ async function createIssue() {
   console.log("✅ Issue created successfully!");
   console.log("🔗 Issue URL:", data.html_url);
 }
+
 
 createIssue();
