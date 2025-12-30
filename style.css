@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #333;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+    min-height: 100vh;
+}
+
+#home {
+    background-color: #e6f2ff;
+}
+
+#about {
+    background-color: #ffffff;
+}
+
+#contact {
+    background-color: #e6ffe6;
+}
